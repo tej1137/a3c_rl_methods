@@ -8,7 +8,7 @@ import time
 #enviroments and configuration
 envs = ["CartPole-v1", "Taxi-v3", "Acrobot-v1"]
 algorithms = {"A2C" : A2C, "DQN" : DQN, "PPO" : PPO}
-timesteps = 15000
+timesteps = 50000
 eval_episodes = 10
 
 results = {}
